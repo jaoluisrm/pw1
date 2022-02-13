@@ -8,16 +8,21 @@ h1 {
   background-color: aquamarine;
   text-align: center;
 }
+h2 {
+  background-color: aquamarine;
+  text-align: center;
+}
+main {
+  
+  background-color: rgb(36, 187, 167);
+}
 a  {
   color:rgb(20, 24, 233) ;
   margin-left: 15px;
+  
 }
-
 nav {
   text-align: center;
   background-color: aqua;
-}
 
-main {
-  background-color: rgb(36, 187, 167);
 }
