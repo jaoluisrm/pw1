@@ -1,30 +1,43 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <script type="text/javascript" src="peso.js"></script>
   </head>
   <body>
     <header>
     <h1>Peso Ideal</h1>
     </header>
-
     <nav>
       <hr>
       <a href="../index.html">Voltar|</a>
-      
-      
       <hr>
     </nav>
-
     <aside>
-      
     </aside>
 
     <main>
-      
+    <div class="text2">
+    <h2>Cálcular Peso Ideal</h2>
+    <div class="column1">
+        <label for="imc">IMC (22 H - 21 M)</label>
+        <input type="number" id="imc" />
+    </div>
+    <div class="column2">
+        <label for="altura">Altura (m)</label>
+        <input type="number" id="altura" />
+    </div>
+    
+    <div class="calc">
+        <button onclick="calcPI()">Calcular</button>
+    </div>
+        
+    <span id="resultado"></span>
+    </div>
     </main>
 
     <footer>
-    
+      <script src="pi.js"></script>
+    <script src="calc.js"></script>
     </footer>
     
   </body>
