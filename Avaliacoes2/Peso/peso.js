@@ -14,15 +14,3 @@ const calcPI = () => {
     resultado.innerHTML = 'Preencha os campos'
   }
 }
-
-/*  IMC desejado (homens): (22 kg/m²)
-IMC desejado (mulheres): (21 kg/m²)
-
-Por exemplo, Renata pesa 85 kg e tem 1,76 m de altura.
-
-PI = IMC desejado x (Altura x Altura)
-PI = 21 x (1,76 x 1,76)
-PI = 21 x 3,09
-PI = 64,9 kg
-
-O peso ideal para Renata é 64,9 kg. */
